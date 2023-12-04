@@ -4,6 +4,9 @@
 1) get the api key and paste it into constant https://www.weatherapi.com/;
 
 2) add file from fireabase with app package;
+
+
+
 #Stack:
     Android Sdk;
     Compose;
