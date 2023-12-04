@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SkyLens: Your Online Meteorologist</string>
+    <string name="days">DAYS</string>
+    <string name="hour">HOURS</string>
+</resources>
