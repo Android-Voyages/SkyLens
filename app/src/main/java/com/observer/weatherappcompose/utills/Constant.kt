@@ -9,6 +9,7 @@ object Constant {
 
     const val CELSIUS = "°C"
     const val FAHRENHEIT = "°F"
+    git remote add origin <https://github.com/Android-Voyages/SkyLens>
 
 
 
