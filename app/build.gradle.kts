@@ -15,8 +15,8 @@ android {
         applicationId = "com.observer.weatherappcompose"
         minSdk = 26
         targetSdk = 33
-        versionCode = 2
-        versionName = "1.0"
+        versionCode = 4
+        versionName = "1.5"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {

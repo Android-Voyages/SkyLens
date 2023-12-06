@@ -39,7 +39,11 @@ class MainViewModel @Inject constructor(
             ""
         )
     )
+    private val _isLoading = MutableStateFlow(true)
 
+
+
+    val isLoading get() = _isLoading.asStateFlow()
     val cityName get() = _cityName.asStateFlow()
     val daysList get() = _daysList.asStateFlow()
     val dialogState get() = _dialogState.asStateFlow()
@@ -60,6 +64,8 @@ class MainViewModel @Inject constructor(
     }
     fun updateCityName(newCityName: String) {
         _cityName.value = newCityName
+        Log.d("afsafaffafafafa","обновился: $cityName")
+        _isLoading.value = false
     }
 
     fun getDataResp(

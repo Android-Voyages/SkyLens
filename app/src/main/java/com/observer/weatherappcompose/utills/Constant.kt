@@ -6,12 +6,10 @@ import javax.inject.Singleton
 object Constant {
     //TODO API_KEY
     const val API_KEY = ""
+    const val CITY_NAME_PUT = "city_name"
 
     const val CELSIUS = "°C"
     const val FAHRENHEIT = "°F"
-    git remote add origin <https://github.com/Android-Voyages/SkyLens>
-
-
 
     //TODO Tag_Log
     const val LOG_VOLLEY_ERROR = "volley_error_log"
