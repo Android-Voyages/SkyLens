@@ -151,15 +151,15 @@ class SplashActivity : ComponentActivity() {
                                 if (cityName != null) {
                                     continuation.resume(cityName)
                                 } else {
-                                    continuation.resumeWithException(Exception("City name not found"))
+                                    showCityInputDialog()
                                 }
                             } catch (e: IOException) {
-                                continuation.resumeWithException(e)
+                                showCityInputDialog()
                             }
                         }
-                    } ?: continuation.resumeWithException(Exception("Location not found"))
+                    } ?:  showCityInputDialog()
                 }.addOnFailureListener { e ->
-                    continuation.resumeWithException(e)
+                    showCityInputDialog()
                 }
             }
         }
